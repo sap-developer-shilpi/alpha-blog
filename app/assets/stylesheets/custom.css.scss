@@ -2,7 +2,19 @@ $navbar-default-bg:#2c4977;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+footer a:hover, a:visited{
+  text-decoration: none;
+  color: black;
+}
+footer ul{
+  float: right;
+  list-style: none;
+  font-size:1.5em;
+}
+footer li{
+display: inline;
+margin-left:20px;
+}
 #logo{
   float: left;
   font-size: 1.7em;
@@ -19,9 +31,15 @@ $navbar-default-bg:#2c4977;
   font-style: italic;
   color:#20566d;
 }
+#sign-up{
+  background-color: black;
+  color:white;
+  font-size: 1.8em;
+}
 .center{
   text-align: center;
 }
 .jumbotron{
   background-image: asset-url('home-pg.jpg');
+  background-size: cover;
 }
