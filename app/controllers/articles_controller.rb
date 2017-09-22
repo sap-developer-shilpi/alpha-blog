@@ -7,9 +7,9 @@ class ArticlesController < ApplicationController
     @article = Article.new
   end
   def edit
+    @article = Article.find(params[:id])
   end
   def create
-    debugger
     @article = Article.new(article_params)
     @article.user= User.first
     if @article.save
@@ -20,6 +20,7 @@ class ArticlesController < ApplicationController
     end
   end
   def update
+    @article.user= User.first
     if @article.update(article_params)
       flash[:success]= "Article is updated"
       redirect_to article_path(@article)
