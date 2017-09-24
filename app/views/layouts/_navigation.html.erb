@@ -20,8 +20,14 @@
   </form></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Sign up", signup_path %><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      
+        <% if logged_in? %>
+          <li><%= link_to "log out", logout_path, method: :delete %></li>
+          <% else %>
+          <li><%= link_to "Log in", login_path %></li>
+          <li><%= link_to "Sign up", signup_path %></li>
+          <% end %>  
+        
     </ul>
   </div>
 </nav>
