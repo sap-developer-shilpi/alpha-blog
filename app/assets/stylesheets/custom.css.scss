@@ -2,7 +2,7 @@ $navbar-default-bg:#2c4977;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-footer a:hover, a:visited{
+footer a:hover, a:visited, a:link{
   text-decoration: none;
   color: black;
 }
@@ -72,4 +72,16 @@ margin-left:20px;
 .listing{
   list-style: none;
   padding-left: 0;
+}
+.badge{
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold; 
+  }
+.blue_text{
+  color: #628cd1;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
