@@ -10,5 +10,6 @@ There arre users that can write blogs on various themes.
 There are articles that can be read and they are written some users in particular themes
 
 the working site is on Heroku
+https://alpha-blog-shilpi.herokuapp.com/ 
 
 
