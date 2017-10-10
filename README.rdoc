@@ -1,13 +1,15 @@
 This is the repository for first app alpha blog of ruby on rails 
 This application works on 
+
 rails  version :4.2.5
+
 ruby version :ruby 2.3.4
 
 Code was written in cloud9
 
-About app: this is an application for writing blogs 
-There arre users that can write blogs on various themes.
-There are articles that can be read and they are written some users in particular themes
+About app: This is an application for writing blogs 
+There are users that can write blogs on various themes.
+There are many articles that can be read and they are written by some users in particular themes
 
 the working site is on Heroku
 https://alpha-blog-shilpi.herokuapp.com/ 
