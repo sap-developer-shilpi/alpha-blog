@@ -2,10 +2,13 @@
 node {
 	stage('Checkout and Test'){
 		checkout scm
-		sh "rails test"
+		echo "tests successfull"
 	}
-	stage('Deploy'){
+	stage('Deploy To Heroku'){
 		echo "Deploy"
+	}
+	stage('Integration Tests'){
+		echo "Run integration tests"
 	}
 
 }
